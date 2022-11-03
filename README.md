@@ -1,0 +1,3 @@
+# LiveSplit.ContextualSlideshow
+### Credits
+CryZe
