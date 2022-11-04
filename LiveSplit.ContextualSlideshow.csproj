@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LiveSplit</RootNamespace>
     <AssemblyName>LiveSplit.ContextualSlideshow</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -58,15 +59,15 @@
       <Name>UpdateManager</Name>
       <Private>False</Private>
     </ProjectReference>
-    <ProjectReference Include="..\LiveSplit.PossibleTimeSave\LiveSplit.PossibleTimeSave.csproj">
+    <ProjectReference Include="..\..\Components\LiveSplit.PossibleTimeSave\LiveSplit.PossibleTimeSave.csproj">
       <Project>{a0a5a4b1-c845-4409-a0db-9f75a192ef9a}</Project>
       <Name>LiveSplit.PossibleTimeSave</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LiveSplit.PreviousSegment\LiveSplit.PreviousSegment.csproj">
+    <ProjectReference Include="..\..\Components\LiveSplit.PreviousSegment\LiveSplit.PreviousSegment.csproj">
       <Project>{b9168df4-29e8-4bdf-845b-14ce96d69441}</Project>
       <Name>LiveSplit.PreviousSegment</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LiveSplit.RunPrediction\LiveSplit.RunPrediction.csproj">
+    <ProjectReference Include="..\..\Components\LiveSplit.RunPrediction\LiveSplit.RunPrediction.csproj">
       <Project>{78f31888-c600-4d5d-9843-13d023893490}</Project>
       <Name>LiveSplit.RunPrediction</Name>
     </ProjectReference>
